@@ -19,8 +19,8 @@ var (
 func influxDBClient() client.Client {
   c, err := client.NewHTTPClient(client.HTTPConfig{
     Addr: "https://<<host>>:8086",
-    Username: "admin",
-    Password: "Metyrosine45",
+    Username: "XXX",
+    Password: "XXXX",
     InsecureSkipVerify: true,
   })
   if err!= nil {
